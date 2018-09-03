@@ -50,7 +50,7 @@ import {
 } from 'cube-ui'
 import App from './App'
 import router from './router'
-import 'common/stylus/index.sass'
+import 'common/stylus/index.styl'
 import 'common/stylus/border.styl'
 
 Vue.use(Button)

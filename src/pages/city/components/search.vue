@@ -66,23 +66,20 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
-@import '~common/stylus/variable.scss';
+<style lang="stylus" scoped>
+@import '~common/stylus/variable.styl'
 
-.search {
-  position: fixed;
-  width: 100%;
-  top: 1.06rem;
-  bottom: 0;
-  z-index: 100;
-  overflow: hidden;
-  background: $color-background;
-  .scroll-list-wrap {
-    height: 100%;
-    .search-item {
-      padding: .2rem .6rem .2rem .2rem;
-      color: #666;
-    }
-  }
-}
+.search
+  position: fixed
+  width: 100%
+  top: 1.06rem
+  bottom: 0
+  z-index: 100
+  overflow: hidden
+  background: $color-background
+  .scroll-list-wrap
+    height: 100%
+    .search-item
+      padding: .2rem .6rem .2rem .2rem
+      color: #666
 </style>

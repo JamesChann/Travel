@@ -178,46 +178,39 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
-@import '~common/stylus/variable.scss';
+<style lang="stylus" scoped>
+@import '~common/stylus/variable.styl';
 
-.home {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  overflow: hidden;
-  background: $color-body-background;
-  .scroll-wrapper {
-    height: 100%;
-    .city-list-wrap {
-      height: 100%;
-      .cube-pulldown-wrapper {
-        transform: translateY(-100%);
-        line-height: 0;
-        .pulldown-content {
-          width: 100%;
-          span {
-            position: absolute;
-            bottom: 15px;
-            left: 0;
-            right: 0;
-            margin: auto;
-            width: 200px;
-            text-align: center;
-            color: $color-text-tip;
-            font-size: 14px;
-          }
-        }
-      }
-    }
-  }
-  .loading-container {
-    position: absolute;
-    width: 100%;
-    top: 50%;
-    transform: translateY(-50%);
-  }
-}
+.home
+  position: fixed
+  top: 0
+  left: 0
+  right: 0
+  bottom: 0
+  overflow: hidden
+  background: $color-body-background
+  .scroll-wrapper
+    height: 100%
+    .city-list-wrap
+      height: 100%
+      .cube-pulldown-wrapper
+        transform: translateY(-100%)
+        line-height: 0
+        .pulldown-content
+          width: 100%
+          span
+            position: absolute
+            bottom: 15px
+            left: 0
+            right: 0
+            margin: auto
+            width: 200px
+            text-align: center
+            color: $color-text-tip
+            font-size: 14px
+  .loading-container
+    position: absolute
+    width: 100%
+    top: 50%
+    transform: translateY(-50%)
 </style>

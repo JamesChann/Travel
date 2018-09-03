@@ -120,67 +120,57 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
-@import '~common/stylus/variable.scss';
+<style lang="stylus" scoped>
+@import '~common/stylus/variable.styl'
 
-.select-city {
-  position: fixed;
-  z-index: 100;
-  width: 100%;
-  top: 0;
-  bottom: 0;
-  background: #f4f4f4;
-  overflow: hidden;
-  .city-navbar {
-    display: flex;
-    border-bottom: 1px solid $color-border-bottom;
-    background: $color-background;
-    .city-input {
-      flex: 1;
-      position: relative;
-      height: .86rem;
-      border: none;
-      font-size: $font-size-small;
-      border-radius: .05rem;
-      padding: .1rem 0 .1rem .1rem;
-      .input-box {
-        width: 100%;
-        height: 100%;
-        .input {
-          width: 100%;
-          height: 100%;
-          border-radius: .3rem;
-          background: #f4f4f4;
-          outline: none;
-          text-align: center;
-          color: $color-text;
-          caret-color: $color-text;
-          &::placeholder {
-            color: #ccc;
-          }
-        }
-      }
-    }
-    .close {
-      width: .86rem;
-      height: .86rem;
-      line-height: .86rem;
-      text-align: center;
-      .icon-close {
-        display: inline-block;
-        padding-top: .2rem;
-        line-height: .45rem;
-        font-size: .45rem;
-        color: #8e8e93;
-      }
-    }
-  }
-}
-.slide-enter-active, .slide-leave-active {
-  transition: all 0.3s;
-}
+.select-city
+  position: fixed
+  z-index: 100
+  width: 100%
+  top: 0
+  bottom: 0
+  background: #f4f4f4
+  overflow: hidden
+  .city-navbar
+    display: flex
+    border-bottom: 1px solid $color-border-bottom
+    background: $color-background
+    .city-input
+      flex: 1
+      position: relative
+      height: .86rem
+      border: none
+      font-size: $font-size-small
+      border-radius: .05rem
+      padding: .1rem 0 .1rem .1rem
+      .input-box
+        width: 100%
+        height: 100%
+        .input
+          width: 100%
+          height: 100%
+          border-radius: .3rem
+          background: #f4f4f4
+          outline: none
+          text-align: center
+          color: $color-text
+          caret-color: $color-text
+          &::placeholder
+            color: #ccc
+    .close
+      width: .86rem
+      height: .86rem
+      line-height: .86rem
+      text-align: center
+      .icon-close
+        display: inline-block
+        padding-top: .2rem
+        line-height: .45rem
+        font-size: .45rem
+        color: #8e8e93
+.slide-enter-active, .slide-leave-active
+  transition: all 0.3s
 
-.slide-enter, .slide-leave-to {
-  transform: translate3d(0, 100%, 0);
-}
+.slide-enter, .slide-leave-to
+  transform: translate3d(0, 100%, 0)
 </style>
