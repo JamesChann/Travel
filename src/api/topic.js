@@ -3,7 +3,7 @@ import axios from 'axios'
 const debug = process.env.NODE_ENV !== 'production'
 
 export function getTopic(cityId, topicId, page, filterType, filterId) {
-  const url = debug ? '/api/getTopic' : 'http://118.190.147.105/travel/api/getTopic'
+  const url = debug ? '/api/getTopic' : 'http://39.106.58.83/travel/api/getTopic'
 
   const data = Object.assign({}, {
     req: {

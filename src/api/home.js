@@ -5,7 +5,7 @@ import axios from 'axios'
 const debug = process.env.NODE_ENV !== 'production'
 
 export function getSliders() {
-  const url = debug ? '/api/getSliders' : 'http://118.190.147.105/travel/api/getSliders'
+  const url = debug ? '/api/getSliders' : 'http://39.106.58.83/travel/api/getSliders'
 
   const data = Object.assign({}, {
     _rt: '1534639382890'
@@ -20,7 +20,7 @@ export function getSliders() {
 
 // 城市信息
 export function getCitys() {
-  const url = debug ? '/api/getCitys' : 'http://118.190.147.105/travel/api/getCitys'
+  const url = debug ? '/api/getCitys' : 'http://39.106.58.83/travel/api/getCitys'
 
   const data = Object.assign({}, {
     req: {
@@ -39,7 +39,7 @@ export function getCitys() {
 
 // 首页信息
 export function getHomeInfo(cityId) {
-  const url = debug ? '/api/getHomeInfo' : 'http://118.190.147.105/travel/api/getHomeInfo'
+  const url = debug ? '/api/getHomeInfo' : 'http://39.106.58.83/travel/api/getHomeInfo'
 
   const data = Object.assign({}, {
     req: {
