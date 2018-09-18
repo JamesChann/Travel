@@ -42,7 +42,7 @@
 
 * ``` Node.js ``` 利用 Express 搭建的本地测试服务器
 
-* ``` vue-axios ``` 用来请求后端 API 音乐数据
+* ``` vue-axios ``` 用来请求后端 API 旅游数据
 
 最后
 ====
