@@ -1,7 +1,7 @@
 使用vue2.0全家桶实现旅游app（仿去哪儿网）
 ====
 
-:musical_note: 基于 Vue(2.5) + vuex + vue-router + vue-axios +better-scroll + ES6 等开发一款简单旅游 WebApp，flex 布局适配常见移动端
+:sunny: 基于 Vue(2.5) + vuex + vue-router + vue-axios +better-scroll + ES6 等开发一款简单旅游 WebApp，flex 布局适配常见移动端
 
 演示
 ===
